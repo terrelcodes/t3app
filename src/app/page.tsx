@@ -65,9 +65,9 @@ const gallery = [
 export default function HomePage() {
 	return (
 		<main className="">
-			<div className="flex flex-wrap">
+			<div className="flex flex-wrap gap-4 p-4">
 				{gallery.map((item) => (
-					<div key={item.id} className="w-1/3">
+					<div key={item.id} className="w-1/4 h-1/4">
 						<img src={item.image} alt={item.title} className="w-full h-full object-cover" />
 					</div>
 				))}
