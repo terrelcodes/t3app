@@ -5,6 +5,8 @@
 [x] create TODO list
 [x] deploy (Vercel)
 [x] scaffold basic UI with mock data
+[ ] add top nav
+[ ] tweak build settings
 [ ] setup a database (vercel postgress)
 [ ] attach db to UI
 [ ] add auth (clerk)

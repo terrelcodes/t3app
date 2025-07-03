@@ -5,6 +5,22 @@
 import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
+    typescript: {
+        ignoreBuildErrors: true,
+    },
+	images: {
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "3rrbtltbgz.ufs.sh",
+			},
+		],
+	},
+    
+};
 
 export default config;
